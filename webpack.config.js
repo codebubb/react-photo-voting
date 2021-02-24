@@ -6,6 +6,7 @@ module.exports = {
         path: path.join(__dirname, '/dist'),
         filename: 'index.bundle.js',
     },
+    target: 'web',
     devServer: {
         port: 3010,
         watchContentBase: true,

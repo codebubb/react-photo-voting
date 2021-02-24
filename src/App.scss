@@ -1,19 +1,4 @@
-@import './ImageContainer.scss';
-@import './Image.scss';
-
 .app {
     font-family: Arial, Helvetica, sans-serif;
     padding: 50px;
-}
-
-h1 {
-    font-size: 50px;
-    padding-bottom: 10px;
-    border-bottom: 2px solid rgba(#dbdbdb, 0.8);
-}
-
-.image-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
 }
