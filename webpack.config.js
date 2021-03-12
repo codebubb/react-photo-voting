@@ -9,7 +9,6 @@ module.exports = {
     target: 'web',
     devServer: {
         port: 3010,
-        watchContentBase: true,
     },
     module: {
         rules: [
