@@ -5,7 +5,7 @@ const ImageContainer = ({ id, upvotes, onUpvote }) => {
     const width = 400;
     const height = 400;
 
-    const upvoteImage = useCallback(async () => {
+    const upvoteImage = async () => {
         try {
             await fetch(`http://localhost:3000/upvote/${id}`, {
                 method: 'PATCH'
@@ -15,7 +15,7 @@ const ImageContainer = ({ id, upvotes, onUpvote }) => {
             console.log(error);
         }
 
-    });
+    };
 
 
     return (

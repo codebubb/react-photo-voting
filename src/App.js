@@ -1,8 +1,8 @@
-import React, { useEffect, useCallback, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import ImageContainer from './ImageContainer';
 
 export function App() {
-    const retrieveImages = useCallback(async () => {
+    const retrieveImages = (async () => {
         try {
             const response = await fetch('http://localhost:3000/images');
             const imageData = await response.json();
